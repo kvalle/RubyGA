@@ -1,0 +1,96 @@
+# 
+# Default and general settings
+# See each task's settings file for specific configuration
+# 
+
+# Default simulator settings
+simulator:
+  
+  # Number of individuals in initial population
+  population_size: 20
+  
+  # Number of times the simulator can run
+  max_generations: 200
+  
+  # Stop simulator when best individual reach this threshold
+  # 0 means no threshold => runs until max generations
+  fitness_cutoff_threshold: 0
+
+
+# Breeding settings
+breeding:
+
+  # How many newborns
+  limit: 20
+
+  # Probability of mutation
+  mutation_rate: 0.01
+
+  # Probability of crossover
+  crossover_rate: 0.7
+
+
+# Selection of adults
+adult:
+  
+  # How to select individuals for adult pool
+  # Methods: 
+  # * tournament
+  # * max_fitness
+  # Roulette wheels:
+  # * fitness_proportionate
+  # * sigma_scaling
+  # * rank
+  # * boltzmann
+  selection_mechanism: tournament
+  
+  tournament:
+    size: 5 # individuals in each tournament
+    epsilon: 0.1 # probability of selecting random winner
+  
+  rank_selection:
+    max: 1.5
+  
+  boltzmann:
+    temprature: 5
+  
+  generational_replacement: true
+  elitism: 1 # adults kept across generations
+
+
+# Selection of parents
+parent:
+  
+  # How to select individuals for parenting.
+  # See this section under "adult" for possible methods.
+  selection_mechanism: sigma_scaling
+  
+  tournament:
+    size: 5 # individuals in each tournament
+    epsilon: 0.1 # probability of selecting random winner
+  
+  rank_selection:
+    max: 2
+  
+  boltzmann:
+    temprature: 5
+  
+
+# Plotting of results
+plot:
+
+  save: true # save new plot of run
+  ymax: false # max y-value in graph
+  
+  # Figures to create while running
+  plotter:
+    - fitness
+
+
+# Printing of results
+print:
+  
+  process:  false
+  progress: true
+  debug:    false
+  genes:    false

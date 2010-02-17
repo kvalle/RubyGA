@@ -1,0 +1,37 @@
+# TSP problem settings
+
+classes:
+  genotype:    pmx
+  phenotype:   int_vector
+  developer:   copier
+  environment: tsp
+
+tsp:
+  country: sahara
+  
+genotype:
+  genes: 29 # the number of cities in selected country
+  gene_length: 5 # bits needed to represent number of cities
+
+simulator:  
+  population_size: 30
+  max_generations: 300
+  fitness_cutoff_threshold: 0
+  
+breeding:
+  limit: 30
+  mutation_rate: 0.2
+  crossover_rate: 0.8
+
+adult:
+  selection_mechanism: max_fitness
+  generational_replacement: false
+  elitism: 1
+
+parent:
+  selection_mechanism: tournament
+
+plot:
+  plotter:
+    - fitness
+    - route

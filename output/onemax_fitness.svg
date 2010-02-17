@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+  <g id="scruffy_graph">
+    <g transform="translate(0.0, 0.0)" id="background">
+      <rect fill="#ffffff" width="600.0" y="0" x="0" height="360.0"/>
+    </g>
+    <g transform="translate(30.0, 7.2)" id="title">
+    </g>
+    <g transform="translate(12.0, 93.6)" id="view">
+      <g>
+        <g transform="translate(0.0, 4.752)" id="values">
+          <text fill="#000000" text-anchor="end" font-size="16.91712" y="211.464" font-family="Helvetica" x="96.12">0.00</text>
+          <text fill="#000000" text-anchor="end" font-size="16.91712" y="158.598" font-family="Helvetica" x="96.12">0.25</text>
+          <text fill="#000000" text-anchor="end" font-size="16.91712" y="105.732" font-family="Helvetica" x="96.12">0.50</text>
+          <text fill="#000000" text-anchor="end" font-size="16.91712" y="52.866" font-family="Helvetica" x="96.12">0.75</text>
+          <text fill="#000000" text-anchor="end" font-size="16.91712" y="0.0" font-family="Helvetica" x="96.12">1.00</text>
+        </g>
+        <g transform="translate(106.8, 0.0)" id="grid">
+          <line x1="0" style="stroke: #000000; stroke-width: 0.5;" y1="0.0" x2="427.2" y2="0.0"/>
+          <line x1="0" style="stroke: #000000; stroke-width: 0.5;" y1="52.866" x2="427.2" y2="52.866"/>
+          <line x1="0" style="stroke: #000000; stroke-width: 0.5;" y1="105.732" x2="427.2" y2="105.732"/>
+          <line x1="0" style="stroke: #000000; stroke-width: 0.5;" y1="158.598" x2="427.2" y2="158.598"/>
+          <line x1="0" style="stroke: #000000; stroke-width: 0.5;" y1="211.464" x2="427.2" y2="211.464"/>
+        </g>
+        <g transform="translate(106.8, 218.592)" id="labels">
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="0.0">2</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="47.4666666666667">4</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="94.9333333333333">6</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="142.4">8</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="189.866666666667">10</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="237.333333333333">12</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="284.8">14</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="332.266666666667">16</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="379.733333333333">18</text>
+          <text fill="#000000" text-anchor="middle" font-size="17.1072" y="19.008" font-family="Helvetica" x="427.2">20</text>
+        </g>
+        <g transform="translate(106.8, 0.0)" id="graphs">
+          <g class="graph_layer" id="component_graphs_graph_0">
+            <polyline points="0.0,189.660042481633 21.36,188.202035787591 42.72,197.49647883955 64.08,197.973123893896 85.44,193.371624152084 106.8,193.86049131151 128.16,198.094940167839 149.52,195.759691990142 170.88,195.06743117209 192.24,195.042506046739 213.6,192.995008825058 234.96,195.293486082034 256.32,196.316478448004 277.68,193.236492496401 299.04,194.644674647821 320.4,189.356272587854 341.76,190.320823782319 363.12,190.839813934499 384.48,190.839813934499 405.84,192.097781999151 427.2,191.236951360102" fill="none" stroke="red" stroke-width="2"/>
+          </g>
+          <g class="graph_layer" id="component_graphs_graph_1">
+            <polyline points="0.0,74.0124 21.36,52.866 42.72,52.866 64.08,42.2928 85.44,21.1464 106.8,21.1464 128.16,21.1464 149.52,21.1464 170.88,21.1464 192.24,21.1464 213.6,10.5732 234.96,10.5732 256.32,10.5732 277.68,10.5732 299.04,10.5732 320.4,10.5732 341.76,10.5732 363.12,10.5732 384.48,10.5732 405.84,10.5732 427.2,0.0" fill="none" stroke="blue" stroke-width="2"/>
+          </g>
+          <g class="graph_layer" id="component_graphs_graph_2">
+            <polyline points="0.0,109.96128 21.36,98.59509 42.72,82.7804195121951 64.08,72.4651024390244 85.44,64.9864975609757 106.8,56.2184780487805 128.16,48.4819902439024 149.52,47.4504585365854 170.88,47.1925756097561 192.24,45.3873951219512 213.6,45.1295121951219 234.96,39.7139707317073 256.32,36.3614926829268 277.68,35.0720780487805 299.04,35.3299609756097 320.4,38.9403219512195 341.76,37.9087902439024 363.12,36.6193756097561 384.48,37.3930243902439 405.84,37.3930243902439 427.2,33.0090146341463" fill="none" stroke="green" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(30.0, 46.8)" id="legend">
+      <rect fill="red" width="10.8" y="0" x="44.6" height="10.8"/>
+      <text fill="#000000" style="color: #000000" font-size="13.608" y="10.206" font-family="Helvetica" x="64.04">Standard deviation</text>
+      <rect fill="blue" width="10.8" y="0" x="271.4" height="10.8"/>
+      <text fill="#000000" style="color: #000000" font-size="13.608" y="10.206" font-family="Helvetica" x="290.84">Max fitness</text>
+      <rect fill="green" width="10.8" y="0" x="422.6" height="10.8"/>
+      <text fill="#000000" style="color: #000000" font-size="13.608" y="10.206" font-family="Helvetica" x="442.04">Average fitness</text>
+    </g>
+  </g>
+</svg>

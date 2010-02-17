@@ -1,0 +1,34 @@
+# One-Max problem settings
+
+classes:
+  genotype:    bit_vector
+  phenotype:   bit_vector
+  developer:   copier
+  environment: onemax
+
+genotype:
+  genes: 20
+  gene_length: 1
+
+simulator:  
+  population_size: 20
+  max_generations: 100
+  fitness_cutoff_threshold: 1.0
+  
+breeding:
+  limit: 20
+  mutation_rate: 0.2
+  crossover_rate: 0.7
+
+adult:
+  selection_mechanism: max_fitness
+  generational_replacement: false
+  elitism: 1
+
+parent:
+  selection_mechanism: max_fitness
+
+plot:
+  plotter:
+    - fitness
+

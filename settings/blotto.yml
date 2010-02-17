@@ -1,0 +1,37 @@
+# Blotto problem settings
+
+classes:
+  genotype:    blotto
+  phenotype:   float_vector
+  developer:   copier
+  environment: blotto
+
+blotto:
+  battles: 5
+  reployment_fraction: 0
+  loss_fraction: 0
+
+simulator:  
+  population_size: 20
+  max_generations: 50
+  fitness_cutoff_threshold: 0
+  
+breeding:
+  limit: 20
+  mutation_rate: 0.5
+  crossover_rate: 0.7
+
+adult:
+  selection_mechanism: tournament
+  generational_replacement: false
+  elitism: 1
+
+parent:
+  selection_mechanism: fitness_proportionate
+
+plot:
+  plotter:
+    - fitness
+    - entropy
+  ymax: 1.0
+

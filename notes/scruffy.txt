@@ -1,0 +1,20 @@
+Scruffy
+Drawing graphs [http://scruffy.rubyforge.org/]
+----------------------------------------------------------------------------------------------------
+
+Needs patch for SVG to work:
+http://rubyforge.org/tracker/index.php?func=detail&aid=27102&group_id=2030&atid=7929
+
+		In the source I have access to, this is initialized using
+
+		 svg.svg(:xmlns => "http://www.w3.org/2000/svg", 'xmlns:xlink' => "http://www.w3.org/1999/xlink",
+		:viewBox => "#{options[:size].first} 100 #{options[:size].last} 200") {
+
+		(Line 35 of renderers/base.rb)
+
+		It should be something like
+
+		svg.svg(:xmlns => "http://www.w3.org/2000/svg", 'xmlns:xlink' => "http://www.w3.org/1999/xlink",
+		:viewBox => "0 0 #{options[:size].first} #{options[:size].last}") {
+
+Then it works. :)
